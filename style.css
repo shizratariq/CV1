@@ -8,6 +8,7 @@
     padding: 10px;
     border-radius: 5px;
     z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .title-bar ul {
@@ -18,7 +19,7 @@
 }
 
 .title-bar li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .title-bar a {
@@ -31,7 +32,9 @@
     text-decoration: underline;
 }
 
+
 /* Make sure the content doesn't overlap */
 body {
     padding-top: 80px; /* To make space for the title bar */
+    background-color: #f0f0f0;
 }
