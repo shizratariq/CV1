@@ -8,13 +8,6 @@
                          -8px -8px 16px #ffffff;
 }
 
-.glass-panel {
-    background: rgba(255, 255, 255, 0.7);
-    border-radius: 15px;
-    padding: 2rem;
-    var(--glass-effect);
-    border: 1px solid rgba(255,255,255,0.3);
-}
 
 body {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -107,4 +100,11 @@ a {
     background: #f8f9fa;
     border-radius: 10px;
     margin: 1rem 0;
+}
+.glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    padding: 2rem;
+    var(--glass-effect);
+    border: 1px solid rgba(255,255,255,0.3);
 }
